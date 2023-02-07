@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>register page</title>
+        <link rel="stylesheet" href="C:\Users\91944\Desktop\cards\login.css">
+    </head>
+    <body>
+        <div class="alert-box">
+            <p class="alert">hello</p>
+        </div>
+        <div class="form">
+<h1 class="heading">Register</h1>
+<input type="text" placeholder="name" autocomplete="off" class="name" required>
+<input type="email" placeholder="email" autocomplete="off" class="email" required>
+<input type="password" placeholder="password"  autocomplete="off" class="password" required>
+<button class="submit-btn">Register</button>
+<a href="C:\Users\91944\Desktop\cards\login.html" class="link">alredy have an account?</a>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="C:\Users\91944\Desktop\cards\login.js" ></script>
+    </body>
+</html>
