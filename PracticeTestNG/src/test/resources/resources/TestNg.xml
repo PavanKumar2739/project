@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Verifying">
+	<test name="present or not">
+		<classes>
+			<class name="TestNG1.Third">
+				<methods>
+					<include name="setup"></include>
+					<include name="login"></include>
+					<include name="ThreeLInes"></include>
+					<include name="Details"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="leavePage">
+		<classes>
+			<class name="TestNG1.Third">
+				<methods>
+					<include name="setup"></include>
+					<include name="login"></include>
+					<include name="Leave"></include>
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="other">
+		<classes>
+			<class name="TestNG1.second">
+				<methods>
+					<include name="setup"></include>
+					<include name="finding"></include>
+					<include name="dohni"></include>
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> 

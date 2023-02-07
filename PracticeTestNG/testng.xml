@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="annotationsTestNG">
+    <classes>
+      <class name="TestNG1.assersion"/>
+      <class name="TestNG1.Third"/>
+      <class name="TestNG1.first"/>
+      <class name="TestNG1.annotations"/>
+      <class name="TestNG1.Assertions"/>
+      <class name="TestNG1.test1"/>
+      <class name="TestNG1.second"/>
+    </classes>
+  </test> <!-- annotationsTestNG -->
+</suite> <!-- Suite -->

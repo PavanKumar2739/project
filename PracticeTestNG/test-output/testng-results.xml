@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-09T11:01:12 IST" name="Default suite" finished-at="2022-11-09T11:01:42 IST" duration-ms="29869">
+    <groups>
+    </groups>
+    <test started-at="2022-11-09T11:01:12 IST" name="Default test" finished-at="2022-11-09T11:01:42 IST" duration-ms="29869">
+      <class name="GroupingConcept.test1">
+        <test-method signature="TestClass()[pri:0, instance:GroupingConcept.test1@750e2b97, instance params:[]]" started-at="2022-11-09T11:01:41 IST" name="TestClass" finished-at="2022-11-09T11:01:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClass -->
+      </class> <!-- GroupingConcept.test1 -->
+      <class name="GroupingConcept.second">
+        <test-method is-config="true" signature="setup()[pri:0, instance:GroupingConcept.second@2eae8e6e, instance params:[]]" started-at="2022-11-09T11:01:12 IST" name="setup" finished-at="2022-11-09T11:01:29 IST" duration-ms="16820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dohni()[pri:0, instance:GroupingConcept.second@2eae8e6e, instance params:[]]" started-at="2022-11-09T11:01:29 IST" name="dohni" finished-at="2022-11-09T11:01:33 IST" duration-ms="4354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dohni -->
+        <test-method signature="finding()[pri:0, instance:GroupingConcept.second@2eae8e6e, instance params:[]]" started-at="2022-11-09T11:01:33 IST" name="finding" finished-at="2022-11-09T11:01:37 IST" duration-ms="4074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finding -->
+        <test-method signature="kohli()[pri:0, instance:GroupingConcept.second@2eae8e6e, instance params:[]]" started-at="2022-11-09T11:01:37 IST" name="kohli" finished-at="2022-11-09T11:01:41 IST" duration-ms="4120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kohli -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:GroupingConcept.second@2eae8e6e, instance params:[]]" started-at="2022-11-09T11:01:41 IST" name="quit" finished-at="2022-11-09T11:01:42 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- GroupingConcept.second -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

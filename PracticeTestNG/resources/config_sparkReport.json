@@ -1,0 +1,13 @@
+{
+  "theme": "STANDARD",
+  "encoding": "utf-8",
+  "protocol": "HTTPS",
+  "timelineEnabled": false,
+  "offlineMode": true,
+  "thumbnailForBase64": false,
+  "documentTitle": "ExtentReports",
+  "reportName": "Doc name",
+  "timeStampFormat": "dd MMM yyyy HH:mm:ss ",
+  "js": "document.getElementsByClassName('logo')[0].style.display='None';",
+  "css": ".badge-primary {background-color:#0cef5e}"
+}
